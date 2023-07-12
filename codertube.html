@@ -47,17 +47,18 @@
 
     <main class="container p-2" data-bs-theme="dark">
         <div class="row">
-            <div class="col-2 d-none d-sm-block text-start w-100">
-                <div>
-                    <button type="button" class="btn"><i class="bi bi-house"></i>Home</button>
+            <!-- Nav Bar? big -->
+            <div class="col-2 d-none d-sm-block text-start flex-column">
+                <div class="border-bottom">
+                    <button type="button" class="btn bg-secondary"><i class="bi bi-house"></i>Home</button>
                     <button type="button" class="btn"><i class="bi bi-play-circle"></i>Shorts</button>
                     <button type="button" class="btn"><i class="bi bi-play-btn"></i>Subscriptions</button>
                 </div>
-                <div>
+                <div class="border-bottom">
                     <button type="button" class="btn"><i class="bi bi-book"></i>Library</button>
                     <button type="button" class="btn"><i class="bi bi-clock"></i>History</button>
                 </div>
-                <div>
+                <div class="border-bottom">
                     <button type="button" class="btn"><i class="bi bi-fire"></i>Trending</button>
                     <button type="button" class="btn"><i class="bi bi-music-note"></i>Music</button>
                     <button type="button" class="btn"><i class="bi bi-film"></i>Movies & TV</button>
@@ -73,17 +74,18 @@
                     <button type="button" class="btn">More</button>
                 </div>
             </div>
-            <div class="col-2 d-sm-none">
-                <div>
-                    <button type="button" class="btn w-100"><i class="bi bi-house"></i></button>
+            <!-- Nav Bar? small -->
+            <div class="col-2 d-sm-none flex-column text-center">
+                <div class="border-bottom">
+                    <button type="button" class="btn bg-secondary"><i class="bi bi-house"></i></button>
                     <button type="button" class="btn"><i class="bi bi-play-circle"></i></button>
                     <button type="button" class="btn"><i class="bi bi-play-btn"></i></button>
                 </div>
-                <div>
+                <div class="border-bottom">
                     <button type="button" class="btn"><i class="bi bi-book"></i></button>
                     <button type="button" class="btn"><i class="bi bi-clock"></i></button>
                 </div>
-                <div>
+                <div class="border-bottom">
                     <button type="button" class="btn"><i class="bi bi-fire"></i></button>
                     <button type="button" class="btn"><i class="bi bi-music-note"></i></button>
                     <button type="button" class="btn"><i class="bi bi-film"></i></button>
@@ -99,268 +101,203 @@
                     <button type="button" class="btn">More</button>
                 </div>
             </div>
-            <div class="col-10">
-                <div class="col row row-cols-1 col-sm-6 col-md-4 col-lg-3">
-                    <div class="col p-2">
-                        <div class="card" style="width: 18rem;">
-                            <svg class="bd-placeholder-img card-img-top" xmlns="http://www.w3.org/2000/svg" role="img"
-                                aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice"
-                                focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%"
-                                    fill="#dee2e6" dy=".3em"><i class="bi bi-play-circle"></i></text>
-                            </svg>
-                            <div class="card-body">
-                                <h5 class="card-title">Video title</h5>
-                                <p class="card-text">Channel Name</p>
-                                <p class="card-text">1.2M Views &middot; Uploaded 4 days ago</p>
-                            </div>
+            <!-- Cards -->
+            <div class="col">
+                <div class="col p-2">
+                    <div class="card mb-3">
+                        <div class="card-header bg-secondary text-center py-5">
+                            <i class="bi bi-play-circle-fill"></i>
                         </div>
-                    </div>
-                    <div class="col p-2">
-                        <div class="card" style="width: 18rem;">
-                            <svg class="bd-placeholder-img card-img-top" xmlns="http://www.w3.org/2000/svg" role="img"
-                                aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice"
-                                focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%"
-                                    fill="#dee2e6" dy=".3em"><i class="bi bi-play-circle"></i></text>
-                            </svg>
-                            <div class="card-body">
-                                <h5 class="card-title">Video title</h5>
-                                <p class="card-text">Channel Name</p>
-                                <p class="card-text">1.2M Views &middot; Uploaded 4 days ago</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col p-2">
-                        <div class="card" style="width: 18rem;">
-                            <svg class="bd-placeholder-img card-img-top" xmlns="http://www.w3.org/2000/svg" role="img"
-                                aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice"
-                                focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%"
-                                    fill="#dee2e6" dy=".3em"><i class="bi bi-play-circle"></i></text>
-                            </svg>
-                            <div class="card-body">
-                                <h5 class="card-title">Video title</h5>
-                                <p class="card-text">Channel Name</p>
-                                <p class="card-text">1.2M Views &middot; Uploaded 4 days ago</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col p-2">
-                        <div class="card" style="width: 18rem;">
-                            <svg class="bd-placeholder-img card-img-top" xmlns="http://www.w3.org/2000/svg" role="img"
-                                aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice"
-                                focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%"
-                                    fill="#dee2e6" dy=".3em"><i class="bi bi-play-circle"></i></text>
-                            </svg>
-                            <div class="card-body">
-                                <h5 class="card-title">Video title</h5>
-                                <p class="card-text">Channel Name</p>
-                                <p class="card-text">1.2M Views &middot; Uploaded 4 days ago</p>
-                            </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Video title</h5>
+                            <p class="card-text">Channel Name</p>
+                            <p class="card-text">1.2M Views &middot; Uploaded 4 days ago</p>
                         </div>
                     </div>
                 </div>
-                <div class="col row col-sm-6 col-md-4 col-lg-3 d-none d-sm-block">
-                    <div class="col p-2">
-                        <div class="card" style="width: 18rem;">
-                            <svg class="bd-placeholder-img card-img-top" xmlns="http://www.w3.org/2000/svg" role="img"
-                                aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice"
-                                focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%"
-                                    fill="#dee2e6" dy=".3em"><i class="bi bi-play-circle"></i></text>
-                            </svg>
-                            <div class="card-body">
-                                <h5 class="card-title">Video title</h5>
-                                <p class="card-text">Channel Name</p>
-                                <p class="card-text">1.2M Views &middot; Uploaded 4 days ago</p>
-                            </div>
+                <div class="col p-2">
+                    <div class="card mb-3">
+                        <div class="card-header bg-secondary text-center py-5">
+                            <i class="bi bi-play-circle-fill"></i>
                         </div>
-                    </div>
-                    <div class="col p-2">
-                        <div class="card" style="width: 18rem;">
-                            <svg class="bd-placeholder-img card-img-top" xmlns="http://www.w3.org/2000/svg" role="img"
-                                aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice"
-                                focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%"
-                                    fill="#dee2e6" dy=".3em"><i class="bi bi-play-circle"></i></text>
-                            </svg>
-                            <div class="card-body">
-                                <h5 class="card-title">Video title</h5>
-                                <p class="card-text">Channel Name</p>
-                                <p class="card-text">1.2M Views &middot; Uploaded 4 days ago</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col p-2">
-                        <div class="card" style="width: 18rem;">
-                            <svg class="bd-placeholder-img card-img-top" xmlns="http://www.w3.org/2000/svg" role="img"
-                                aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice"
-                                focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%"
-                                    fill="#dee2e6" dy=".3em"><i class="bi bi-play-circle"></i></text>
-                            </svg>
-                            <div class="card-body">
-                                <h5 class="card-title">Video title</h5>
-                                <p class="card-text">Channel Name</p>
-                                <p class="card-text">1.2M Views &middot; Uploaded 4 days ago</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col p-2">
-                        <div class="card" style="width: 18rem;">
-                            <svg class="bd-placeholder-img card-img-top" xmlns="http://www.w3.org/2000/svg" role="img"
-                                aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice"
-                                focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%"
-                                    fill="#dee2e6" dy=".3em"><i class="bi bi-play-circle"></i></text>
-                            </svg>
-                            <div class="card-body">
-                                <h5 class="card-title">Video title</h5>
-                                <p class="card-text">Channel Name</p>
-                                <p class="card-text">1.2M Views &middot; Uploaded 4 days ago</p>
-                            </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Video title</h5>
+                            <p class="card-text">Channel Name</p>
+                            <p class="card-text">1.2M Views &middot; Uploaded 4 days ago</p>
                         </div>
                     </div>
                 </div>
-                <div class="col row col-md-4 col-lg-3 d-none d-md-block">
-                    <div class="col p-2">
-                        <div class="card" style="width: 18rem;">
-                            <svg class="bd-placeholder-img card-img-top" xmlns="http://www.w3.org/2000/svg" role="img"
-                                aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice"
-                                focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%"
-                                    fill="#dee2e6" dy=".3em"><i class="bi bi-play-circle"></i></text>
-                            </svg>
-                            <div class="card-body">
-                                <h5 class="card-title">Video title</h5>
-                                <p class="card-text">Channel Name</p>
-                                <p class="card-text">1.2M Views &middot; Uploaded 4 days ago</p>
-                            </div>
+                <div class="col p-2">
+                    <div class="card mb-3">
+                        <div class="card-header bg-secondary text-center py-5">
+                            <i class="bi bi-play-circle-fill"></i>
                         </div>
-                    </div>
-                    <div class="col p-2">
-                        <div class="card" style="width: 18rem;">
-                            <svg class="bd-placeholder-img card-img-top" xmlns="http://www.w3.org/2000/svg" role="img"
-                                aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice"
-                                focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%"
-                                    fill="#dee2e6" dy=".3em"><i class="bi bi-play-circle"></i></text>
-                            </svg>
-                            <div class="card-body">
-                                <h5 class="card-title">Video title</h5>
-                                <p class="card-text">Channel Name</p>
-                                <p class="card-text">1.2M Views &middot; Uploaded 4 days ago</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col p-2">
-                        <div class="card" style="width: 18rem;">
-                            <svg class="bd-placeholder-img card-img-top" xmlns="http://www.w3.org/2000/svg" role="img"
-                                aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice"
-                                focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%"
-                                    fill="#dee2e6" dy=".3em"><i class="bi bi-play-circle"></i></text>
-                            </svg>
-                            <div class="card-body">
-                                <h5 class="card-title">Video title</h5>
-                                <p class="card-text">Channel Name</p>
-                                <p class="card-text">1.2M Views &middot; Uploaded 4 days ago</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col p-2">
-                        <div class="card" style="width: 18rem;">
-                            <svg class="bd-placeholder-img card-img-top" xmlns="http://www.w3.org/2000/svg" role="img"
-                                aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice"
-                                focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%"
-                                    fill="#dee2e6" dy=".3em"><i class="bi bi-play-circle"></i></text>
-                            </svg>
-                            <div class="card-body">
-                                <h5 class="card-title">Video title</h5>
-                                <p class="card-text">Channel Name</p>
-                                <p class="card-text">1.2M Views &middot; Uploaded 4 days ago</p>
-                            </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Video title</h5>
+                            <p class="card-text">Channel Name</p>
+                            <p class="card-text">1.2M Views &middot; Uploaded 4 days ago</p>
                         </div>
                     </div>
                 </div>
-                <div class="col row col-lg-3 d-none d-lg-block">
-                    <div class="col p-2">
-                        <div class="card" style="width: 18rem;">
-                            <svg class="bd-placeholder-img card-img-top" xmlns="http://www.w3.org/2000/svg" role="img"
-                                aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice"
-                                focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%"
-                                    fill="#dee2e6" dy=".3em"><i class="bi bi-play-circle"></i></text>
-                            </svg>
-                            <div class="card-body">
-                                <h5 class="card-title">Video title</h5>
-                                <p class="card-text">Channel Name</p>
-                                <p class="card-text">1.2M Views &middot; Uploaded 4 days ago</p>
-                            </div>
+                <div class="col p-2">
+                    <div class="card mb-3">
+                        <div class="card-header bg-secondary text-center py-5">
+                            <i class="bi bi-play-circle-fill"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Video title</h5>
+                            <p class="card-text">Channel Name</p>
+                            <p class="card-text">1.2M Views &middot; Uploaded 4 days ago</p>
                         </div>
                     </div>
-                    <div class="col p-2">
-                        <div class="card" style="width: 18rem;">
-                            <svg class="bd-placeholder-img card-img-top" xmlns="http://www.w3.org/2000/svg" role="img"
-                                aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice"
-                                focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%"
-                                    fill="#dee2e6" dy=".3em"><i class="bi bi-play-circle"></i></text>
-                            </svg>
-                            <div class="card-body">
-                                <h5 class="card-title">Video title</h5>
-                                <p class="card-text">Channel Name</p>
-                                <p class="card-text">1.2M Views &middot; Uploaded 4 days ago</p>
-                            </div>
+                </div>
+            </div>
+            <div class="col d-none d-sm-block">
+                <div class="col p-2">
+                    <div class="card mb-3">
+                        <div class="card-header bg-secondary text-center py-5">
+                            <i class="bi bi-play-circle-fill"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Video title</h5>
+                            <p class="card-text">Channel Name</p>
+                            <p class="card-text">1.2M Views &middot; Uploaded 4 days ago</p>
                         </div>
                     </div>
-                    <div class="col p-2">
-                        <div class="card" style="width: 18rem;">
-                            <svg class="bd-placeholder-img card-img-top" xmlns="http://www.w3.org/2000/svg" role="img"
-                                aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice"
-                                focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%"
-                                    fill="#dee2e6" dy=".3em"><i class="bi bi-play-circle"></i></text>
-                            </svg>
-                            <div class="card-body">
-                                <h5 class="card-title">Video title</h5>
-                                <p class="card-text">Channel Name</p>
-                                <p class="card-text">1.2M Views &middot; Uploaded 4 days ago</p>
-                            </div>
+                </div>
+                <div class="col p-2">
+                    <div class="card mb-3">
+                        <div class="card-header bg-secondary text-center py-5">
+                            <i class="bi bi-play-circle-fill"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Video title</h5>
+                            <p class="card-text">Channel Name</p>
+                            <p class="card-text">1.2M Views &middot; Uploaded 4 days ago</p>
                         </div>
                     </div>
-                    <div class="col p-2">
-                        <div class="card" style="width: 18rem;">
-                            <svg class="bd-placeholder-img card-img-top" xmlns="http://www.w3.org/2000/svg" role="img"
-                                aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice"
-                                focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%"
-                                    fill="#dee2e6" dy=".3em"><i class="bi bi-play-circle"></i></text>
-                            </svg>
-                            <div class="card-body">
-                                <h5 class="card-title">Video title</h5>
-                                <p class="card-text">Channel Name</p>
-                                <p class="card-text">1.2M Views &middot; Uploaded 4 days ago</p>
-                            </div>
+                </div>
+                <div class="col p-2">
+                    <div class="card mb-3">
+                        <div class="card-header bg-secondary text-center py-5">
+                            <i class="bi bi-play-circle-fill"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Video title</h5>
+                            <p class="card-text">Channel Name</p>
+                            <p class="card-text">1.2M Views &middot; Uploaded 4 days ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-2">
+                    <div class="card mb-3">
+                        <div class="card-header bg-secondary text-center py-5">
+                            <i class="bi bi-play-circle-fill"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Video title</h5>
+                            <p class="card-text">Channel Name</p>
+                            <p class="card-text">1.2M Views &middot; Uploaded 4 days ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-none d-md-block">
+                <div class="col p-2">
+                    <div class="card mb-3">
+                        <div class="card-header bg-secondary text-center py-5">
+                            <i class="bi bi-play-circle-fill"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Video title</h5>
+                            <p class="card-text">Channel Name</p>
+                            <p class="card-text">1.2M Views &middot; Uploaded 4 days ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-2">
+                    <div class="card mb-3">
+                        <div class="card-header bg-secondary text-center py-5">
+                            <i class="bi bi-play-circle-fill"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Video title</h5>
+                            <p class="card-text">Channel Name</p>
+                            <p class="card-text">1.2M Views &middot; Uploaded 4 days ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-2">
+                    <div class="card mb-3">
+                        <div class="card-header bg-secondary text-center py-5">
+                            <i class="bi bi-play-circle-fill"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Video title</h5>
+                            <p class="card-text">Channel Name</p>
+                            <p class="card-text">1.2M Views &middot; Uploaded 4 days ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-2">
+                    <div class="card mb-3">
+                        <div class="card-header bg-secondary text-center py-5">
+                            <i class="bi bi-play-circle-fill"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Video title</h5>
+                            <p class="card-text">Channel Name</p>
+                            <p class="card-text">1.2M Views &middot; Uploaded 4 days ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-none d-lg-block">
+                <div class="col p-2">
+                    <div class="card mb-3">
+                        <div class="card-header bg-secondary text-center py-5">
+                            <i class="bi bi-play-circle-fill"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Video title</h5>
+                            <p class="card-text">Channel Name</p>
+                            <p class="card-text">1.2M Views &middot; Uploaded 4 days ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-2">
+                    <div class="card mb-3">
+                        <div class="card-header bg-secondary text-center py-5">
+                            <i class="bi bi-play-circle-fill"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Video title</h5>
+                            <p class="card-text">Channel Name</p>
+                            <p class="card-text">1.2M Views &middot; Uploaded 4 days ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-2">
+                    <div class="card mb-3">
+                        <div class="card-header bg-secondary text-center py-5">
+                            <i class="bi bi-play-circle-fill"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Video title</h5>
+                            <p class="card-text">Channel Name</p>
+                            <p class="card-text">1.2M Views &middot; Uploaded 4 days ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-2">
+                    <div class="card mb-3">
+                        <div class="card-header bg-secondary text-center py-5">
+                            <i class="bi bi-play-circle-fill"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Video title</h5>
+                            <p class="card-text">Channel Name</p>
+                            <p class="card-text">1.2M Views &middot; Uploaded 4 days ago</p>
                         </div>
                     </div>
                 </div>
